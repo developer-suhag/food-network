@@ -15,7 +15,7 @@ a{
 }
 .fixed-width{
     width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 .flexible-container{
@@ -217,4 +217,36 @@ a{
 
 #mushroom-button{
     margin-top: 98px;
+}
+
+/* counter-section */
+
+.counter-section{
+    padding: 80px 0;
+}
+
+.counter-shadow {
+    background: #fff;
+    box-shadow: 5px 5px 10px 6px rgba(121, 121, 121, 0.4);
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.number{
+    width: 33%;
+}
+
+.number h3 {
+    font-size: 50px;
+    color: #18191f;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.number p {
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #6b6a6a;
 }
