@@ -25,7 +25,7 @@ a{
 
 /* navbar */
 .navbar{
-    background: #55efc4;
+    background: #48dbfb;
 }
 .logo{
     width: 40%;
@@ -49,9 +49,61 @@ a{
 }
 
 .menu ul li a{
-    padding: 5px 20px;
     font-size: 20px;
     font-weight: 700;
     line-height: 76px;
     color: #000;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    padding: 10px 30px !important;
+    
+}
+
+/* banner-section */
+.banner-section{
+    padding:25px 0;
+}
+
+.banner-text{
+    width: 50%;
+    margin-top: 110px;
+}
+
+.banner-text h1 {
+    width: 500px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #575757;
+}
+
+.colored-text{
+    color: #0692f7;
+}
+
+.banner-text p {
+    font-size: 20px;
+    width: 420px;
+    margin-bottom: 20px;
+    color: #6b6a6a;
+}
+.banner-text a{}
+
+.gradient-button {
+    display: inline-block;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #fe4b2f, #fc8e48);
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 5px 8px 40px #fc8e48f0;
+
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 80%;
 }
